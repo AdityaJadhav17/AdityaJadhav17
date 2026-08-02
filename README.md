@@ -4,7 +4,7 @@
 
 # Aditya Jadhav
 
-CS student at UC San Diego building software across enterprise security, AI, and full-stack systems.
+Hi 👋 I'm Aditya, a CS student at UC San Diego building software across enterprise security, AI, and full-stack systems.
 
 <br />
 
@@ -12,8 +12,7 @@ CS student at UC San Diego building software across enterprise security, AI, and
 [![Website](https://img.shields.io/badge/Website-adityajadhav17.github.io-90EE90?style=for-the-badge&labelColor=1C1C1C)](https://adityajadhav17.github.io/)
 [![Email](https://img.shields.io/badge/Email-aditya.jadhav7910%40gmail.com-E07A5F?style=for-the-badge&labelColor=1C1C1C)](mailto:aditya.jadhav7910@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Aditya%20Jadhav-0A66C2?style=for-the-badge&labelColor=1C1C1C)](https://www.linkedin.com/in/aditya-jadhav-06484123a/)
-[![Resume](https://img.shields.io/badge/Resume-PDF-F4A261?style=for-the-badge&labelColor=1C1C1C)](https://adityajadhav17.github.io/Aditya_Jadhav_Resume.pdf)
-
+<!--[![Resume](https://img.shields.io/badge/Resume-PDF-F4A261?style=for-the-badge&labelColor=1C1C1C)](https://adityajadhav17.github.io/Aditya_Jadhav_Resume.pdf) -->
 </div>
 
 ---
@@ -117,7 +116,7 @@ Problems I want to keep working on:
 
 - AI-enabled products with clear system boundaries (agents, APIs, evaluation)
 - Reliable backend systems: latency, observability, and maintainable interfaces
-- Security automation that reduces manual toil without hiding risk
+- Security automation that reduces manual tasks without hiding risk
 - Developer tooling that shortens feedback loops
 - Hardware/software integration where desktop apps meet physical devices
 
