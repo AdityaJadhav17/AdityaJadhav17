@@ -1,12 +1,20 @@
+<div align="center">
+
+<img src="media/team-pic.jpeg" alt="UCSD CSE 110 Team 09, the WatchTower project team" width="720" />
+
 # Aditya Jadhav
 
-**IT Security Programmer | CS @ UC San Diego | AI Systems, Security Automation & Developer Tools**
+CS student at UC San Diego building software across enterprise security, AI, and full-stack systems.
 
-San Diego, CA · B.S. Computer Science @ UC San Diego (Expected June 2027)
+<br />
 
-I build practical software across enterprise security automation, AI-backed systems, and full-stack applications. Looking for software engineering internships in backend, AI/ML, and security-focused roles.
+[![Location](https://img.shields.io/badge/Location-San%20Diego%2C%20CA-87CEEB?style=for-the-badge&labelColor=1C1C1C)](https://github.com/AdityaJadhav17)
+[![Website](https://img.shields.io/badge/Website-adityajadhav17.github.io-90EE90?style=for-the-badge&labelColor=1C1C1C)](https://adityajadhav17.github.io/)
+[![Email](https://img.shields.io/badge/Email-aditya.jadhav7910%40gmail.com-E07A5F?style=for-the-badge&labelColor=1C1C1C)](mailto:aditya.jadhav7910@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aditya%20Jadhav-0A66C2?style=for-the-badge&labelColor=1C1C1C)](https://www.linkedin.com/in/aditya-jadhav-06484123a/)
+[![Resume](https://img.shields.io/badge/Resume-PDF-F4A261?style=for-the-badge&labelColor=1C1C1C)](https://adityajadhav17.github.io/Aditya_Jadhav_Resume.pdf)
 
-[Portfolio](https://adityajadhav17.github.io/) · [LinkedIn](https://www.linkedin.com/in/aditya-jadhav-06484123a/) · [Resume](https://adityajadhav17.github.io/Aditya_Jadhav_Resume.pdf) · [Email](mailto:aditya.jadhav7910@gmail.com)
+</div>
 
 ---
 
@@ -35,7 +43,7 @@ I build practical software across enterprise security automation, AI-backed syst
 ### [WatchTower](https://github.com/cse110-sp26-group09/Watchtower-Course-Project)
 **Problem:** Web teams need lightweight production visibility for JS errors, latency, and user activity without a heavyweight vendor agent.
 
-**What I engineered:** As Technical Lead (CI/CD and architecture) for UCSD CSE 110 Team 09, led system design for a browser SDK, Node.js ingest API, Supabase/Postgres persistence, and a Clerk-authenticated real-time dashboard. Shipped CI with Jest and Playwright, plus a deployed Render backend.
+**What I engineered:** As Team Leader and Technical Lead (CI/CD and architecture) for UCSD CSE 110 Team 09, directed delivery and system design for a browser SDK, Node.js ingest API, Supabase/Postgres persistence, and a Clerk-authenticated real-time dashboard. Shipped CI with Jest and Playwright, plus a deployed Render backend.
 
 **Stack:** JavaScript · Node.js · Supabase · Clerk · Jest · Playwright · Render
 
