@@ -6,7 +6,7 @@ San Diego, CA · B.S. Computer Science @ UC San Diego (Expected June 2027)
 
 I build practical software across enterprise security automation, AI-backed systems, and full-stack applications. Looking for software engineering internships in backend, AI/ML, and security-focused roles.
 
-[Portfolio](https://adityajadhav17.github.io/) · [LinkedIn](https://www.linkedin.com/in/aditya-jadhav-06484123a/) · [Resume](https://adityajadhav17.github.io/Aditya_Jadhav_Resume.pdf) · [Email](mailto:aditya.jadhav2622@gmail.com)
+[Portfolio](https://adityajadhav17.github.io/) · [LinkedIn](https://www.linkedin.com/in/aditya-jadhav-06484123a/) · [Resume](https://adityajadhav17.github.io/Aditya_Jadhav_Resume.pdf) · [Email](mailto:aditya.jadhav7910@gmail.com)
 
 ---
 
@@ -32,6 +32,28 @@ I build practical software across enterprise security automation, AI-backed syst
 
 ---
 
+### [WatchTower](https://github.com/cse110-sp26-group09/Watchtower-Course-Project)
+**Problem:** Web teams need lightweight production visibility for JS errors, latency, and user activity without a heavyweight vendor agent.
+
+**What I engineered:** As Technical Lead (CI/CD and architecture) for UCSD CSE 110 Team 09, led system design for a browser SDK, Node.js ingest API, Supabase/Postgres persistence, and a Clerk-authenticated real-time dashboard. Shipped CI with Jest and Playwright, plus a deployed Render backend.
+
+**Stack:** JavaScript · Node.js · Supabase · Clerk · Jest · Playwright · Render
+
+**Result:** Deployable observability platform with live backend and SDK test app. Live: [backend](https://watchtower-course-project-g8dv.onrender.com) · [test app](https://cse110-sp26-group09.github.io/Watchtower-test-app/) · [demo video](https://youtu.be/tCBGQJBaOEo)
+
+---
+
+### [Talk-to-Robot](https://github.com/YangLin14/Talk-to-Robot)
+**Problem:** Natural-language robot commands fail when spatial grounding is mixed with control, making it hard to see where LLM understanding breaks.
+
+**What I engineered:** Team project (CSE 190) with a decoupled LLM grounder and SAC+HER controller in MuJoCo FetchPush. Evaluated instruction tiers from literal coordinates to functional intent, isolating grounding failures from policy errors.
+
+**Stack:** Python · Gemini · MuJoCo · Gymnasium · Stable-Baselines3 (SAC + HER)
+
+**Result:** End-to-end success near-solved on literal/region tiers (T0 ~98%, T1 ~93%), with a clear cliff on relative and intent-heavy instructions (T2 ~77% LLM, T4 ~45-55%).
+
+---
+
 ### [Synthetic-to-Real Object Detection](https://github.com/AdityaJadhav17/Synthetic-to-Real-Object-Detection)
 **Problem:** Models trained only on synthetic images often fail on real photos; this Kaggle challenge measured that sim-to-real gap directly.
 
@@ -40,17 +62,6 @@ I build practical software across enterprise security automation, AI-backed syst
 **Stack:** Python · PyTorch · YOLOv8 · Albumentations
 
 **Result:** Public LB mAP **0.9175** / Private LB mAP **0.9074**. Competition: [Kaggle challenge](https://www.kaggle.com/competitions/synthetic-2-real-object-detection-challenge)
-
----
-
-### [Portfolio Website](https://github.com/AdityaJadhav17/AdityaJadhav17.github.io)
-**Problem:** Recruiters and collaborators need a single place to find projects, resume, and contact details.
-
-**What I built:** A React + Vite site on GitHub Pages with modular sections, dark/light theming, and a working contact path.
-
-**Stack:** React · Vite · JavaScript · CSS · GitHub Pages
-
-**Result:** Live at [adityajadhav17.github.io](https://adityajadhav17.github.io/)
 
 ---
 
@@ -74,21 +85,21 @@ Shipped a responsive business platform with CRM, scheduling, and analytics workf
 | Area | Tools |
 |------|--------|
 | **Languages** | Python, C++, Java, C, JavaScript/TypeScript, SQL |
-| **Backend & APIs** | FastAPI, Node.js, Express, REST, MySQL, MongoDB |
+| **Backend & APIs** | FastAPI, Node.js, Express, REST, MySQL, MongoDB, Supabase |
 | **Frontend** | React, Vite, HTML/CSS |
-| **AI & Data** | PyTorch, TensorFlow, YOLOv8, LangGraph, NumPy, Pandas |
-| **Infra & Tools** | Docker, NATS, Grafana, AWS, IBM Cloud, Git, Linux, Windows |
+| **AI & Data** | PyTorch, TensorFlow, YOLOv8, LangGraph, MuJoCo, NumPy, Pandas |
+| **Infra & Tools** | Docker, NATS, Grafana, AWS, IBM Cloud, Git, Linux, Windows, CI/CD |
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 ---
 
@@ -97,7 +108,7 @@ Shipped a responsive business platform with CRM, scheduling, and analytics workf
 Problems I want to keep working on:
 
 - AI-enabled products with clear system boundaries (agents, APIs, evaluation)
-- Reliable backend services: latency, observability, and maintainable interfaces
+- Reliable backend systems: latency, observability, and maintainable interfaces
 - Security automation that reduces manual toil without hiding risk
 - Developer tooling that shortens feedback loops
 - Hardware/software integration where desktop apps meet physical devices
@@ -110,6 +121,6 @@ Open to **software engineering internships**, **AI/ML engineering**, and **secur
 
 Prefer a short technical discussion over a cold pitch. Reach me via:
 
-- **Email:** [aditya.jadhav2622@gmail.com](mailto:aditya.jadhav2622@gmail.com)
+- **Email:** [aditya.jadhav7910@gmail.com](mailto:aditya.jadhav7910@gmail.com)
 - **LinkedIn:** [linkedin.com/in/aditya-jadhav-06484123a](https://www.linkedin.com/in/aditya-jadhav-06484123a/)
 - **Portfolio / Resume:** [adityajadhav17.github.io](https://adityajadhav17.github.io/) · [PDF resume](https://adityajadhav17.github.io/Aditya_Jadhav_Resume.pdf)
