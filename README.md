@@ -8,11 +8,11 @@ Hi 👋 I'm Aditya, a CS student at UC San Diego building software across enterp
 
 <br />
 
-[![Location](https://img.shields.io/badge/Location-San%20Diego%2C%20CA-87CEEB?style=for-the-badge&labelColor=1C1C1C)](https://github.com/AdityaJadhav17)
-[![Website](https://img.shields.io/badge/Website-adityajadhav17.github.io-90EE90?style=for-the-badge&labelColor=1C1C1C)](https://adityajadhav17.github.io/)
-[![Email](https://img.shields.io/badge/Email-aditya.jadhav7910%40gmail.com-E07A5F?style=for-the-badge&labelColor=1C1C1C)](mailto:aditya.jadhav7910@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aditya%20Jadhav-0A66C2?style=for-the-badge&labelColor=1C1C1C)](https://www.linkedin.com/in/aditya-jadhav-06484123a/)
-<!--[![Resume](https://img.shields.io/badge/Resume-PDF-F4A261?style=for-the-badge&labelColor=1C1C1C)](https://adityajadhav17.github.io/Aditya_Jadhav_Resume.pdf) -->
+[![Location](https://img.shields.io/badge/Location-San%20Diego%2C%20CA-87CEEB?style=flat-square&labelColor=1C1C1C)](https://github.com/AdityaJadhav17)
+[![Website](https://img.shields.io/badge/Website-adityajadhav17.github.io-90EE90?style=flat-square&labelColor=1C1C1C)](https://adityajadhav17.github.io/)
+[![Email](https://img.shields.io/badge/Email-aditya.jadhav7910%40gmail.com-E07A5F?style=flat-square&labelColor=1C1C1C)](mailto:aditya.jadhav7910@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aditya%20Jadhav-0A66C2?style=flat-square&labelColor=1C1C1C)](https://www.linkedin.com/in/aditya-jadhav-06484123a/)
+<!--[![Resume](https://img.shields.io/badge/Resume-PDF-F4A261?style=flat-square&labelColor=1C1C1C)](https://adityajadhav17.github.io/Aditya_Jadhav_Resume.pdf) -->
 </div>
 
 ---
