@@ -11,6 +11,11 @@
 
 📍 San Diego, CA &nbsp;·&nbsp; 🎓 B.S. Computer Science, UCSD (June 2027)
 
+[![Location](https://img.shields.io/badge/Location-San%20Diego%2C%20CA-87CEEB?style=flat-square&labelColor=1C1C1C)](https://github.com/AdityaJadhav17)
+[![Website](https://img.shields.io/badge/Website-adityajadhav.dev-90EE90?style=flat-square&labelColor=1C1C1C)](https://adityajadhav.dev/)
+[![Email](https://img.shields.io/badge/Email-aditya.jadhav7910%40gmail.com-E07A5F?style=flat-square&labelColor=1C1C1C)](mailto:aditya.jadhav7910@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aditya%20Jadhav-0A66C2?style=flat-square&labelColor=1C1C1C)](https://www.linkedin.com/in/aditya-jadhav-06484123a/)
+<!--[![Resume](https://img.shields.io/badge/Resume-PDF-F4A261?style=flat-square&labelColor=1C1C1C)](https://adityajadhav17.github.io/Aditya_Jadhav_Resume.pdf) -->
 </div>
 
 ## ⚡ Now
