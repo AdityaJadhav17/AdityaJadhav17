@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:0D1117,100:1F6FEB&section=header&text=Aditya%20Jadhav&fontColor=ffffff&fontSize=44&fontAlignY=42&desc=Backend%20%C2%B7%20AI%20systems%20%C2%B7%20Security%20automation&descSize=16&descAlignY=64" alt="Aditya Jadhav: backend, AI systems, security automation" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:0D1117,100:1F6FEB&section=header&text=Aditya%20Jadhav&fontColor=ffffff&fontSize=44&fontAlignY=42&desc=Full-stack%20%C2%B7%20AI%20%C2%B7%20Security&descSize=16&descAlignY=64" alt="Aditya Jadhav: full-stack, AI, security" width="100%" />
 
-**CS at UC San Diego. I build reliable backends, AI systems and security automation, and prove they work with tests.**
+**I'm a computer science student at UC San Diego. I build full-stack apps, AI agent systems and security automation, and I write the tests that check them.**
 
 [![Website](https://img.shields.io/badge/Website-adityajadhav.dev-0D1117?style=flat-square&logo=safari&logoColor=white)](https://adityajadhav.dev/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Aditya%20Jadhav-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-jadhav-06484123a/)
@@ -17,16 +17,16 @@
 
 |  |  |
 |:--|:--|
-| **UC San Diego Enterprise IT** | Security automation in Python, SQL and REST. Cut manual review effort ~30% and added 20+ automated tests. |
-| **Lumulus Technologies** | Software engineering intern building Windows tooling (PySide6) for hardware programming workflows. |
-| **UC San Diego** | B.S. Computer Science, expected June 2027. San Diego, CA. |
-| **Open to** | Software engineering internships, AI/ML engineering, security-focused software. |
+| **UC San Diego Enterprise IT** | I automate security reviews with Python, SQL and REST services. The pipelines cut manual review effort by about 30%, and I added 20+ automated tests. |
+| **Lumulus Technologies** | As a software engineering intern, I build Windows tools in PySide6 that program hardware. |
+| **UC San Diego** | B.S. in Computer Science, graduating June 2027. Based in San Diego. |
+| **Looking for** | Software engineering internships in full-stack, AI/ML or security. |
 
 <br>
 
 ## Projects
 
-*Ordered by impact.*
+*Ranked by impact.*
 
 <table>
 <tr>
@@ -36,11 +36,11 @@
 <td width="50%" valign="top">
 
 ### [WatchTower](https://github.com/cse110-sp26-group09/Watchtower-Course-Project)
-Production observability for web teams. I led the team as **Technical Lead** (CI/CD, architecture).
+`Full-stack`
 
-Browser SDK, Node.js ingest API, Supabase/Postgres and a Clerk-authenticated real-time dashboard, with Jest and Playwright in CI.
+A monitoring tool that catches JavaScript errors, slow requests and user activity on a website. I led the team as Technical Lead and owned CI/CD and architecture. We built a browser SDK, a Node.js ingest API, a Supabase/Postgres store and a Clerk-protected live dashboard, and tested them with Jest and Playwright.
 
-**Impact:** shipped end to end with a live backend.<br>
+**Impact:** the team shipped it with a live backend.<br>
 [Backend](https://watchtower-course-project-g8dv.onrender.com) · [Test app](https://cse110-sp26-group09.github.io/Watchtower-test-app/) · [Demo](https://youtu.be/tCBGQJBaOEo)
 
 <img src="https://skillicons.dev/icons?i=js,nodejs,supabase,jest,playwright&theme=dark" alt="JavaScript, Node.js, Supabase, Jest, Playwright" />
@@ -51,9 +51,11 @@ Browser SDK, Node.js ingest API, Supabase/Postgres and a Clerk-authenticated rea
 <td width="50%" valign="top">
 
 ### [AI Travel Planner](https://github.com/AdityaJadhav17/Travel-Agntcy)
-A distributed multi-agent system: a LangGraph supervisor plans flights, hotels and activities across FastAPI services and a React UI.
+`AI` `Full-stack`
 
-**Impact:** ~40% lower inter-service latency with containerized services on NATS. Grafana and ClickHouse for observability. [Demo](https://youtu.be/T0EkJ9J_IQU)
+A LangGraph supervisor sends flight, hotel and activity searches to separate agents. Each agent runs as a FastAPI service, and a React UI shows the combined plan. Services talk over NATS, and Grafana and ClickHouse track their health.
+
+**Impact:** containerized services on NATS cut inter-service latency by about 40%. [Demo](https://youtu.be/T0EkJ9J_IQU)
 
 <img src="https://skillicons.dev/icons?i=python,fastapi,react,ts,docker,grafana&theme=dark" alt="Python, FastAPI, React, TypeScript, Docker, Grafana" />
 
@@ -61,9 +63,11 @@ A distributed multi-agent system: a LangGraph supervisor plans flights, hotels a
 <td width="50%" valign="top">
 
 ### [Stockroom](https://github.com/AdityaJadhav17/Stockroom)
-Inventory with role-based purchase approvals and an auditable history. Each stock change and its record commit in one transaction, and conditional updates stop concurrent requests from overselling.
+`Full-stack` `Security`
 
-**Impact:** 165 integration tests and 11 browser tests cover rules, authorization, races and rollback.
+An inventory app where members request purchases and managers approve them. Roles control who can do what, and every stock change lands in an audit history. Each change and its record commit in one transaction. Conditional updates stop two requests from selling the same stock.
+
+**Impact:** 165 integration tests and 11 browser tests cover business rules, authorization, race conditions and rollback.
 
 <img src="https://skillicons.dev/icons?i=cs,dotnet,sqlite,githubactions&theme=dark" alt="C#, .NET, SQLite, GitHub Actions" />
 
@@ -73,7 +77,9 @@ Inventory with role-based purchase approvals and an auditable history. Each stoc
 <td width="50%" valign="top">
 
 ### [Synthetic-to-Real Detection](https://github.com/AdityaJadhav17/Synthetic-to-Real-Object-Detection)
-A YOLOv8 pipeline with domain-randomization experiments and Kaggle submission tooling, built to close the sim-to-real gap.
+`AI`
+
+A YOLOv8 pipeline for a Kaggle challenge where models train on synthetic images and run on real photos. I ran augmentation and domain-randomization experiments and wrote the submission tooling.
 
 **Impact:** public mAP **0.9175**, private mAP **0.9074**. [Kaggle challenge](https://www.kaggle.com/competitions/synthetic-2-real-object-detection-challenge)
 
@@ -83,9 +89,11 @@ A YOLOv8 pipeline with domain-randomization experiments and Kaggle submission to
 <td width="50%" valign="top">
 
 ### [Talk-to-Robot](https://github.com/YangLin14/Talk-to-Robot)
-An LLM grounder decoupled from a SAC+HER controller in MuJoCo, so grounding failures can be told apart from policy errors.
+`AI`
 
-**Impact:** ~98% and ~93% end-to-end success on literal and region tiers, with a clear drop on relative and intent-heavy instructions.
+Our team split a robot-control system into an LLM that reads the instruction and a SAC+HER controller in MuJoCo that moves the arm. The split shows whether a failed push came from the language model or the policy.
+
+**Impact:** ~98% and ~93% end-to-end success on literal and region instructions, dropping on relative and intent-based ones.
 
 <img src="https://skillicons.dev/icons?i=python,pytorch&theme=dark" alt="Python, PyTorch" />
 
@@ -95,7 +103,9 @@ An LLM grounder decoupled from a SAC+HER controller in MuJoCo, so grounding fail
 <td width="50%" valign="top">
 
 ### [Personal Tracker](https://github.com/AdityaJadhav17/Personal-Tracker)
-A local-first dashboard for deadlines, notes, routines and goals. It runs in your browser: no account, no server, and nothing leaves your machine.
+`Full-stack`
+
+A dashboard for deadlines, notes, routines and goals. It runs in your browser on your machine. It needs no account and no server, and your data stays local.
 
 <img src="https://skillicons.dev/icons?i=ts,react,vite&theme=dark" alt="TypeScript, React, Vite" />
 
@@ -103,9 +113,9 @@ A local-first dashboard for deadlines, notes, routines and goals. It runs in you
 <td width="50%" valign="top">
 
 ### More work
-**AI Chat Assistant (IBM Cloud):** Watson Assistant with Node.js/Express; 150+ test queries at 90%+ accuracy. [Demo](https://youtu.be/9sRefMjn5Es)
+**AI Chat Assistant (IBM Cloud).** A Watson Assistant and Node.js/Express chatbot. It answered 150+ test queries at 90%+ accuracy. [Demo](https://youtu.be/9sRefMjn5Es)
 
-**NutrifitWorld (intern):** shipped a responsive business platform with CRM, scheduling and analytics workflows, Jun to Oct 2025.
+**NutrifitWorld (intern, Jun to Oct 2025).** I shipped a responsive business site with CRM, scheduling and analytics.
 
 </td>
 </tr>
@@ -134,6 +144,6 @@ A local-first dashboard for deadlines, notes, routines and goals. It runs in you
 
 <br>
 
-**Prefer a short technical conversation to a cold pitch?** [aditya.jadhav7910@gmail.com](mailto:aditya.jadhav7910@gmail.com)
+Email me at [aditya.jadhav7910@gmail.com](mailto:aditya.jadhav7910@gmail.com). I'd rather talk shop than read a pitch.
 
 </div>
