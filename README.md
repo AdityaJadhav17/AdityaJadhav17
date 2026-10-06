@@ -11,9 +11,14 @@
 
 <br>
 
-| ~30% | ~40% | 176 | 0.9175 |
-|:--:|:--:|:--:|:--:|
-| less manual security review at UCSD IT | lower latency across AI agents | automated tests on Stockroom | Kaggle mAP, synthetic to real |
+<table>
+<tr>
+<td align="center" valign="top" width="25%"><h3>~30%</h3><sub>less manual security review</sub></td>
+<td align="center" valign="top" width="25%"><h3>~40%</h3><sub>lower latency across AI agents</sub></td>
+<td align="center" valign="top" width="25%"><h3>176</h3><sub>automated tests on Stockroom</sub></td>
+<td align="center" valign="top" width="25%"><h3>0.9175</h3><sub>Kaggle mAP, synthetic to real</sub></td>
+</tr>
+</table>
 
 </div>
 
@@ -21,9 +26,9 @@
 
 ## Now
 
-**UC San Diego Enterprise IT** · I automate security reviews with Python, SQL and REST services. The pipelines cut manual review effort by about 30%, and I added 20+ automated tests.
+**UC San Diego Enterprise IT** · I automated security reviews with Python, SQL and REST pipelines, cutting manual review work by about 30%. I also wrote 20+ automated tests for them.
 
-**Lumulus Technologies** · As a software engineering intern, I build Windows tools in PySide6 that program hardware.
+**Lumulus Technologies** · As a software engineering intern, I build Windows tools in PySide6 for programming hardware.
 
 **UC San Diego** · B.S. in Computer Science, graduating June 2027. Based in San Diego.
 
@@ -36,7 +41,7 @@
 *Ranked by impact.*
 
 ### [WatchTower](https://github.com/cse110-sp26-group09/Watchtower-Course-Project) &nbsp;`Full-stack`
-**Shipped a live monitoring platform as Technical Lead of a team project.** A browser SDK sends JavaScript errors, slow requests and user activity to a Node.js API, which stores them in Supabase and streams them to a Clerk-protected dashboard.
+**Led the team that shipped a live monitoring platform.** As Technical Lead I owned CI/CD and architecture. Our browser SDK sends JavaScript errors, slow requests and user activity to a Node.js API, which stores them in Supabase and streams them to a Clerk-protected dashboard.
 
 [Backend](https://watchtower-course-project-g8dv.onrender.com) · [Test app](https://cse110-sp26-group09.github.io/Watchtower-test-app/) · [Demo](https://youtu.be/tCBGQJBaOEo) &nbsp;|&nbsp; *JavaScript · Node.js · Supabase · Clerk · Jest · Playwright*
 
@@ -45,7 +50,7 @@
 <br>
 
 ### [AI Travel Planner](https://github.com/AdityaJadhav17/Travel-Agntcy) &nbsp;`AI` `Full-stack`
-**Cut inter-service latency by about 40%.** A LangGraph supervisor sends flight, hotel and activity searches to three FastAPI agents over NATS, and a React UI shows the combined plan.
+**Cut inter-service latency by about 40%** by running the agents in Docker containers that talk over NATS. A LangGraph supervisor sends flight, hotel and activity searches to three FastAPI agents, and a React UI shows the combined plan.
 
 [Demo](https://youtu.be/T0EkJ9J_IQU) &nbsp;|&nbsp; *Python · FastAPI · LangGraph · React · TypeScript · Docker · NATS*
 
@@ -54,7 +59,7 @@
 <br>
 
 ### [Stockroom](https://github.com/AdityaJadhav17/Stockroom) &nbsp;`Full-stack` `Security`
-**165 integration tests and 11 browser tests guard the purchase flow.** Members request stock, managers approve it, and each change commits with its audit record in one transaction, so two requests can't sell the same item.
+**Wrote 165 integration tests and 11 browser tests for the purchase flow.** Members request stock and managers approve it. The app writes each stock change and its audit record in one transaction, so two requests can't sell the same item.
 
 *C# · ASP.NET Core · EF Core · SQLite · Playwright*
 
@@ -72,7 +77,7 @@
 <br>
 
 ### [Talk-to-Robot](https://github.com/YangLin14/Talk-to-Robot) &nbsp;`AI`
-**Reached ~98% end-to-end success on literal robot instructions.** Our team split an LLM that reads the instruction from a SAC+HER controller in MuJoCo, so you can see whether a failed push came from the language model or the policy.
+**Reached ~98% end-to-end success on literal robot instructions.** Our team split an LLM that reads the instruction from a SAC+HER controller in MuJoCo, so you can see whether a failed push came from the language model or the policy. Success drops to 50% on functional-intent instructions.
 
 *Python · Gemini · MuJoCo · Stable-Baselines3*
 
@@ -81,7 +86,7 @@
 <br>
 
 ### [Personal Tracker](https://github.com/AdityaJadhav17/Personal-Tracker) &nbsp;`Full-stack`
-**A deadline and notes dashboard that keeps your data on your machine.** It runs in your browser with no account and no server.
+**Built a deadline and notes dashboard that keeps your data on your machine.** It runs in your browser with no account and no server.
 
 *TypeScript · React · Vite*
 
@@ -114,21 +119,8 @@
 
 <br>
 
-## Activity
-
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AdityaJadhav17&show_icons=true&hide_rank=true&hide_border=true&theme=github_dark&bg_color=00000000" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AdityaJadhav17&show_icons=true&hide_rank=true&hide_border=true&theme=default&bg_color=00000000" alt="Aditya's GitHub stats" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaJadhav17&layout=compact&hide_border=true&theme=github_dark&bg_color=00000000" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaJadhav17&layout=compact&hide_border=true&theme=default&bg_color=00000000" alt="Aditya's most-used languages" />
-</picture>
-
-<br><br>
-
-Email me at [aditya.jadhav7910@gmail.com](mailto:aditya.jadhav7910@gmail.com). I'd rather talk shop than read a pitch.
+Email me at [aditya.jadhav7910@gmail.com](mailto:aditya.jadhav7910@gmail.com) about internships or any project above.
 
 </div>
