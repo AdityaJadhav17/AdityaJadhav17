@@ -7,7 +7,13 @@
 [![Website](https://img.shields.io/badge/Website-adityajadhav.dev-0D1117?style=flat-square&logo=safari&logoColor=white)](https://adityajadhav.dev/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Aditya%20Jadhav-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-jadhav-06484123a/)
 [![Email](https://img.shields.io/badge/Email-Say%20hello-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:aditya.jadhav7910@gmail.com)
-[![Resume](https://img.shields.io/badge/Resume-PDF-1F6FEB?style=flat-square&logo=readme&logoColor=white)](https://adityajadhav17.github.io/Aditya_Jadhav_Resume.pdf)
+[![Resume](https://img.shields.io/badge/Resume-PDF-1F6FEB?style=flat-square&logo=readme&logoColor=white)](https://adityajadhav.dev/Aditya_Jadhav_Resume.pdf)
+
+<br>
+
+| ~30% | ~40% | 176 | 0.9175 |
+|:--:|:--:|:--:|:--:|
+| less manual security review at UCSD IT | lower latency across AI agents | automated tests on Stockroom | Kaggle mAP, synthetic to real |
 
 </div>
 
@@ -15,12 +21,13 @@
 
 ## Now
 
-| Where | What I do |
-|:--|:--|
-| **UC San Diego Enterprise IT** | I automate security reviews with Python, SQL and REST services. The pipelines cut manual review effort by about 30%, and I added 20+ automated tests. |
-| **Lumulus Technologies** | As a software engineering intern, I build Windows tools in PySide6 that program hardware. |
-| **UC San Diego** | B.S. in Computer Science, graduating June 2027. Based in San Diego. |
-| **Looking for** | Software engineering internships in full-stack, AI/ML or security. |
+**UC San Diego Enterprise IT** · I automate security reviews with Python, SQL and REST services. The pipelines cut manual review effort by about 30%, and I added 20+ automated tests.
+
+**Lumulus Technologies** · As a software engineering intern, I build Windows tools in PySide6 that program hardware.
+
+**UC San Diego** · B.S. in Computer Science, graduating June 2027. Based in San Diego.
+
+**Looking for** · Software engineering internships in full-stack, AI/ML or security.
 
 <br>
 
@@ -33,7 +40,7 @@
 
 [Backend](https://watchtower-course-project-g8dv.onrender.com) · [Test app](https://cse110-sp26-group09.github.io/Watchtower-test-app/) · [Demo](https://youtu.be/tCBGQJBaOEo) &nbsp;|&nbsp; *JavaScript · Node.js · Supabase · Clerk · Jest · Playwright*
 
-<a href="https://github.com/cse110-sp26-group09/Watchtower-Course-Project"><img src="media/watchtower.webp" alt="WatchTower architecture: a browser SDK posts events to a Node.js API on Render, which uses Clerk for auth and Supabase for storage" width="100%" /></a>
+<a href="https://github.com/cse110-sp26-group09/Watchtower-Course-Project"><img src="https://adityajadhav.dev/watchtower.webp" alt="WatchTower's triage queue showing live captured JavaScript errors with severity, version and assignment" width="100%" /></a>
 
 <br>
 
@@ -42,7 +49,7 @@
 
 [Demo](https://youtu.be/T0EkJ9J_IQU) &nbsp;|&nbsp; *Python · FastAPI · LangGraph · React · TypeScript · Docker · NATS*
 
-<a href="https://github.com/AdityaJadhav17/Travel-Agntcy"><img src="media/travel-agntcy.webp" alt="Travel Agntcy architecture: React UI, FastAPI with a LangGraph supervisor, NATS, and flight, hotel and activity agents" width="100%" /></a>
+<a href="https://github.com/AdityaJadhav17/Travel-Agntcy"><img src="https://adityajadhav.dev/travel-agntcy.webp" alt="Travel AGNTCY: an agent chat panel beside ranked flight options with airline, price and layover detail" width="100%" /></a>
 
 <br>
 
@@ -51,7 +58,7 @@
 
 *C# · ASP.NET Core · EF Core · SQLite · Playwright*
 
-<a href="https://github.com/AdityaJadhav17/Stockroom"><img src="media/stockroom.webp" alt="Stockroom manager dashboard with pending requests, awaiting deliveries and low stock" width="100%" /></a>
+<a href="https://github.com/AdityaJadhav17/Stockroom"><img src="https://adityajadhav.dev/stockroom.webp" alt="Stockroom's History page: a read-only log of purchase request events and stock movements with actor and note" width="100%" /></a>
 
 <br>
 
@@ -60,12 +67,16 @@
 
 [Kaggle challenge](https://www.kaggle.com/competitions/synthetic-2-real-object-detection-challenge) &nbsp;|&nbsp; *Python · PyTorch · YOLOv8 · Albumentations*
 
+<a href="https://github.com/AdityaJadhav17/Synthetic-to-Real-Object-Detection"><img src="https://adityajadhav.dev/sim2real.webp" alt="The detector finds a Cheerios box at 0.99 confidence in both a real photo and a synthetic render" width="560" /></a>
+
 <br>
 
 ### [Talk-to-Robot](https://github.com/YangLin14/Talk-to-Robot) &nbsp;`AI`
 **Reached ~98% end-to-end success on literal robot instructions.** Our team split an LLM that reads the instruction from a SAC+HER controller in MuJoCo, so you can see whether a failed push came from the language model or the policy.
 
 *Python · Gemini · MuJoCo · Stable-Baselines3*
+
+<a href="https://github.com/YangLin14/Talk-to-Robot"><img src="https://adityajadhav.dev/talk-to-robot.svg" alt="End-to-end success by instruction tier: 98.3% literal coordinates, 93.3% named regions, 76.7% relative offsets, 73.3% reference objects, 50% functional intent" width="100%" /></a>
 
 <br>
 
@@ -74,7 +85,7 @@
 
 *TypeScript · React · Vite*
 
-<a href="https://github.com/AdityaJadhav17/Personal-Tracker"><img src="media/personal-tracker.webp" alt="Personal Tracker home view with overdue items and the week's deadlines" width="100%" /></a>
+<a href="https://github.com/AdityaJadhav17/Personal-Tracker"><img src="https://adityajadhav.dev/personal-tracker.webp" alt="Personal Tracker's Home view: today's date, one overdue item first, then the coming days with course tags" width="100%" /></a>
 
 <details>
 <summary><b>More work</b></summary>
@@ -95,11 +106,11 @@
 
 | Area | Tools |
 |:--|:--|
-| **Languages** | <img src="media/icons-languages.svg" alt="Python, C++, Java, C, C#, JavaScript, TypeScript" height="40" /> &nbsp;SQL |
+| **Languages** | <img src="media/icons-languages.svg" alt="Python, C++, Java, C, C#, JavaScript, TypeScript" height="40" /><br><sub>+ SQL</sub> |
 | **Backend** | <img src="media/icons-backend.svg" alt="FastAPI, Node.js, Express, .NET, MySQL, MongoDB, Supabase" height="40" /> |
 | **Frontend** | <img src="media/icons-frontend.svg" alt="React, Vite, HTML, CSS" height="40" /> |
-| **AI & Data** | <img src="media/icons-ai.svg" alt="PyTorch, TensorFlow" height="40" /> &nbsp;LangGraph · YOLOv8 · NumPy · Pandas |
-| **Infra** | <img src="media/icons-infra.svg" alt="Docker, AWS, Git, Linux, Windows, GitHub Actions" height="40" /> &nbsp;NATS · Grafana |
+| **AI & Data** | <img src="media/icons-ai.svg" alt="PyTorch, TensorFlow" height="40" /><br><sub>+ LangGraph · YOLOv8 · NumPy · Pandas</sub> |
+| **Infra** | <img src="media/icons-infra.svg" alt="Docker, AWS, Git, Linux, Windows, GitHub Actions" height="40" /><br><sub>+ NATS · Grafana</sub> |
 
 <br>
 
@@ -108,8 +119,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AdityaJadhav17&show_icons=true&hide_border=true&theme=github_dark&bg_color=00000000" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AdityaJadhav17&show_icons=true&hide_border=true&theme=default&bg_color=00000000" alt="Aditya's GitHub stats" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AdityaJadhav17&show_icons=true&hide_rank=true&hide_border=true&theme=github_dark&bg_color=00000000" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AdityaJadhav17&show_icons=true&hide_rank=true&hide_border=true&theme=default&bg_color=00000000" alt="Aditya's GitHub stats" />
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaJadhav17&layout=compact&hide_border=true&theme=github_dark&bg_color=00000000" />

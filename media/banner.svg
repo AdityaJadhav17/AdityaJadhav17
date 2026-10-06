@@ -1,14 +1,14 @@
 
       <svg
         width="854"
-        height="140"
+        height="170"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
         style="z-index:1;position:relative"
-        viewBox="0 0 854 140"
+        viewBox="0 0 854 170"
       >
         <style>
-      .text {   font-size: 44px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 16px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } 
+      .text {   font-size: 64px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 24px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } 
       .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  } 
     </style>
         <defs>
@@ -17,7 +17,7 @@
               </linearGradient>
             </defs>
         
-      <g transform="translate(427, 70) scale(1, 1) translate(-427, -70)">
+      <g transform="translate(427, 85) scale(1, 1) translate(-427, -85)">
         <path d="" fill="url(#linear)" opacity="0.4" >
           <animate
               attributeName="d"
@@ -27,7 +27,7 @@
               calcmod="spline"
               keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
               begin="0s"
-              values="M0 0L 0 60Q 213.5 100 427 70T 854 95L 854 0 Z;M0 0L 0 85Q 213.5 100 427 80T 854 70L 854 0 Z;M0 0L 0 105Q 213.5 75 427 105T 854 70L 854 0 Z;M0 0L 0 60Q 213.5 100 427 70T 854 95L 854 0 Z">
+              values="M0 0L 0 90Q 213.5 130 427 100T 854 125L 854 0 Z;M0 0L 0 115Q 213.5 130 427 110T 854 100L 854 0 Z;M0 0L 0 135Q 213.5 105 427 135T 854 100L 854 0 Z;M0 0L 0 90Q 213.5 130 427 100T 854 125L 854 0 Z">
           </animate>
         </path>
         <path d="" fill="url(#linear)" opacity="0.4" >
@@ -39,11 +39,11 @@
             calcmod="spline"
             keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
             begin="-10s"
-            values="M0 0L 0 75Q 213.5 120 427 90T 854 100L 854 0 Z;M0 0L 0 90Q 213.5 60 427 60T 854 80L 854 0 Z;M0 0L 0 85Q 213.5 65 427 90T 854 105L 854 0 Z;M0 0L 0 75Q 213.5 120 427 90T 854 100L 854 0 Z">
+            values="M0 0L 0 105Q 213.5 150 427 120T 854 130L 854 0 Z;M0 0L 0 120Q 213.5 90 427 90T 854 110L 854 0 Z;M0 0L 0 115Q 213.5 95 427 120T 854 135L 854 0 Z;M0 0L 0 105Q 213.5 150 427 120T 854 130L 854 0 Z">
           </animate>
         </path>
       </g>
-         <text text-anchor="middle" dominant-baseline="middle" x="50%" y="42%" class="text" style="fill:#ffffff;" stroke="#none" stroke-width="1" >Aditya Jadhav</text>
-        <text text-anchor="middle" dominant-baseline="middle" x="50%" y="64%" class="desc" style="fill:#ffffff;">Full-stack · AI · Security</text>
+         <text text-anchor="middle" dominant-baseline="middle" x="50%" y="40%" class="text" style="fill:#ffffff;" stroke="#none" stroke-width="1" >Aditya Jadhav</text>
+        <text text-anchor="middle" dominant-baseline="middle" x="50%" y="66%" class="desc" style="fill:#ffffff;">Full-stack · AI · Security</text>
       </svg>
     
