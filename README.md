@@ -26,13 +26,13 @@
 
 ## Now
 
-**UC San Diego Enterprise IT** · I automated security reviews with Python, SQL and REST pipelines, cutting manual review work by about 30%. I also wrote 20+ automated tests for them.
+**UC San Diego Enterprise IT** (since Dec 2025) · I automated security reviews with Python, SQL and REST pipelines, cutting manual review work by about 30%. I also wrote 20+ automated tests for them.
 
-**Lumulus Technologies** · As a software engineering intern, I build Windows tools in PySide6 for programming hardware.
+**Lumulus Technologies** (since Jun 2026) · As a software engineering intern, I build Windows tools in PySide6 for programming hardware.
 
 **UC San Diego** · B.S. in Computer Science, graduating June 2027. Based in San Diego.
 
-**Looking for** · Software engineering internships in full-stack, AI/ML or security.
+**Looking for** · New-grad software engineering roles starting after June 2027, full-time or post-grad internships, in full-stack, AI/ML or security.
 
 <br>
 
@@ -41,16 +41,16 @@
 *Ranked by impact.*
 
 ### [WatchTower](https://github.com/cse110-sp26-group09/Watchtower-Course-Project) &nbsp;`Full-stack`
-**Led the team that shipped a live monitoring platform.** As Technical Lead I owned CI/CD and architecture. Our browser SDK sends JavaScript errors, slow requests and user activity to a Node.js API, which stores them in Supabase and streams them to a Clerk-protected dashboard.
+**Led 11 teammates on a CSE 110 course project that shipped a live monitoring platform.** As Technical Lead I owned CI/CD and architecture. Our browser SDK sends JavaScript errors, slow requests and user activity to a Node.js API, which stores them in Supabase and streams them to a Clerk-protected dashboard.
 
-[Backend](https://watchtower-course-project-g8dv.onrender.com) · [Test app](https://cse110-sp26-group09.github.io/Watchtower-test-app/) · [Demo](https://youtu.be/tCBGQJBaOEo) &nbsp;|&nbsp; *JavaScript · Node.js · Supabase · Clerk · Jest · Playwright*
+[Demo](https://youtu.be/tCBGQJBaOEo) · [Test app](https://cse110-sp26-group09.github.io/Watchtower-test-app/) · [Backend](https://watchtower-course-project-g8dv.onrender.com) &nbsp;|&nbsp; *JavaScript · Node.js · Supabase · Clerk · Jest · Playwright*
 
 <a href="https://github.com/cse110-sp26-group09/Watchtower-Course-Project"><img src="media/watchtower.webp" alt="WatchTower's production health view: availability, errors, latency, signal and feedback scores beside a radar chart" width="100%" /></a>
 
 <br>
 
-### [AI Travel Planner](https://github.com/AdityaJadhav17/Travel-Agntcy) &nbsp;`AI` `Full-stack`
-**Cut inter-service latency by about 40%** by running the agents in Docker containers that talk over NATS. A LangGraph supervisor sends flight, hotel and activity searches to three FastAPI agents, and a React UI shows the combined plan.
+### [Travel AGNTCY](https://github.com/AdityaJadhav17/Travel-Agntcy) &nbsp;`AI` `Full-stack`
+**Cut inter-service latency by about 40%** by adding explicit fields and filters to the JSON the orchestrator agent receives, so it no longer spends time guessing missing details. A LangGraph supervisor sends flight, hotel and activity searches to three FastAPI agents over NATS, and a React UI shows the combined plan.
 
 [Demo](https://youtu.be/T0EkJ9J_IQU) &nbsp;|&nbsp; *Python · FastAPI · LangGraph · React · TypeScript · Docker · NATS*
 
@@ -58,8 +58,8 @@
 
 <br>
 
-### [Stockroom](https://github.com/AdityaJadhav17/Stockroom) &nbsp;`Full-stack` `Security`
-**Wrote 165 integration tests and 11 browser tests for the purchase flow.** Members request stock and managers approve it. The app writes each stock change and its audit record in one transaction, so two requests can't sell the same item.
+### [Stockroom](https://github.com/AdityaJadhav17/Stockroom) &nbsp;`Full-stack`
+**Wrote 165 integration tests and 11 browser tests for the purchase flow.** Members request stock and managers approve it. The app writes each stock change and its audit record in one transaction, and conditional updates block double-recorded deliveries and overselling.
 
 *C# · ASP.NET Core · EF Core · SQLite · Playwright*
 
@@ -77,7 +77,7 @@
 <br>
 
 ### [Talk-to-Robot](https://github.com/YangLin14/Talk-to-Robot) &nbsp;`AI`
-**Reached ~98% end-to-end success on literal robot instructions.** Our team split an LLM that reads the instruction from a SAC+HER controller in MuJoCo, so you can see whether a failed push came from the language model or the policy. Success drops to 50% on functional-intent instructions.
+**Found where LLM robot control breaks: ~98% end-to-end success on literal instructions, 50% on intent-based ones.** Our team split an LLM that reads the instruction from a reinforcement-learning controller (SAC+HER) in MuJoCo, so you can see whether a failed push came from the language model or the policy.
 
 *Python · Gemini · MuJoCo · Stable-Baselines3*
 
