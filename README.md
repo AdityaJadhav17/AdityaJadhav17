@@ -45,7 +45,7 @@
 
 [Backend](https://watchtower-course-project-g8dv.onrender.com) · [Test app](https://cse110-sp26-group09.github.io/Watchtower-test-app/) · [Demo](https://youtu.be/tCBGQJBaOEo) &nbsp;|&nbsp; *JavaScript · Node.js · Supabase · Clerk · Jest · Playwright*
 
-<a href="https://github.com/cse110-sp26-group09/Watchtower-Course-Project"><img src="https://adityajadhav.dev/watchtower-light-1100.webp" alt="WatchTower's production health view: availability, errors, latency, signal and feedback scores beside a radar chart" width="100%" /></a>
+<a href="https://github.com/cse110-sp26-group09/Watchtower-Course-Project"><img src="media/watchtower.webp" alt="WatchTower's production health view: availability, errors, latency, signal and feedback scores beside a radar chart" width="100%" /></a>
 
 <br>
 
@@ -54,7 +54,7 @@
 
 [Demo](https://youtu.be/T0EkJ9J_IQU) &nbsp;|&nbsp; *Python · FastAPI · LangGraph · React · TypeScript · Docker · NATS*
 
-<a href="https://github.com/AdityaJadhav17/Travel-Agntcy"><img src="https://adityajadhav.dev/travel-agntcy-light-1100.webp" alt="Travel AGNTCY agent directory: a travel supervisor linked over NATS to flight, hotel and activity agents" width="100%" /></a>
+<a href="https://github.com/AdityaJadhav17/Travel-Agntcy"><img src="media/travel-agntcy.webp" alt="Travel AGNTCY agent directory: a travel supervisor linked over NATS to flight, hotel and activity agents" width="100%" /></a>
 
 <br>
 
@@ -63,7 +63,7 @@
 
 *C# · ASP.NET Core · EF Core · SQLite · Playwright*
 
-<a href="https://github.com/AdityaJadhav17/Stockroom"><img src="https://adityajadhav.dev/stockroom-920.webp" alt="Stockroom's History page: a read-only log of purchase request events and stock movements with actor and note" width="100%" /></a>
+<a href="https://github.com/AdityaJadhav17/Stockroom"><img src="media/stockroom.webp" alt="Stockroom's History page: a read-only log of purchase request events and stock movements with actor and note" width="100%" /></a>
 
 <br>
 
@@ -72,7 +72,7 @@
 
 [Kaggle challenge](https://www.kaggle.com/competitions/synthetic-2-real-object-detection-challenge) &nbsp;|&nbsp; *Python · PyTorch · YOLOv8 · Albumentations*
 
-<a href="https://github.com/AdityaJadhav17/Synthetic-to-Real-Object-Detection"><img src="https://adityajadhav.dev/sim2real-560.webp" alt="The detector finds a Cheerios box at 0.99 confidence in both a real photo and a synthetic render" width="560" /></a>
+<a href="https://github.com/AdityaJadhav17/Synthetic-to-Real-Object-Detection"><img src="media/sim2real.webp" alt="The detector finds a Cheerios box at 0.99 confidence in both a real photo and a synthetic render" width="560" /></a>
 
 <br>
 
@@ -90,7 +90,7 @@
 
 *TypeScript · React · Vite*
 
-<a href="https://github.com/AdityaJadhav17/Personal-Tracker"><img src="https://adityajadhav.dev/personal-tracker-840.webp" alt="Personal Tracker's Home view: today's date, one overdue item first, then the coming days with course tags" width="100%" /></a>
+<a href="https://github.com/AdityaJadhav17/Personal-Tracker"><img src="media/personal-tracker.webp" alt="Personal Tracker's Home view: today's date, one overdue item first, then the coming days with course tags" width="100%" /></a>
 
 <details>
 <summary><b>More work</b></summary>
