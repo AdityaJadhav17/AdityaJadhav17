@@ -1,22 +1,24 @@
 <div align="center">
 
-<img src="media/banner.svg" alt="Aditya Jadhav: full-stack, AI, security" width="100%" />
+<img src="media/banner.svg" alt="Aditya Jadhav" width="100%" />
 
 **I build full-stack apps, AI agent systems and security automation, then test them.**
 
-[![Website](https://img.shields.io/badge/Website-adityajadhav.dev-0D1117?style=flat-square&logo=safari&logoColor=white)](https://adityajadhav.dev/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aditya%20Jadhav-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-jadhav-06484123a/)
-[![Email](https://img.shields.io/badge/Email-Say%20hello-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:aditya.jadhav7910@gmail.com)
-[![Resume](https://img.shields.io/badge/Resume-PDF-1F6FEB?style=flat-square&logo=readme&logoColor=white)](https://adityajadhav.dev/Aditya_Jadhav_Resume.pdf)
+[![Website](https://img.shields.io/badge/Website-adityajadhav.dev-1F6FEB?style=flat-square&logo=safari&logoColor=white)](https://adityajadhav.dev/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aditya%20Jadhav-1F6FEB?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-jadhav-06484123a/)
+[![Email](https://img.shields.io/badge/Email-Say%20hello-1F6FEB?style=flat-square&logo=gmail&logoColor=white)](mailto:aditya.jadhav7910@gmail.com)
+[![Resume](https://img.shields.io/badge/Resume-PDF-1F6FEB?style=flat-square&logo=files&logoColor=white)](https://adityajadhav.dev/Aditya_Jadhav_Resume.pdf)
 
 <br>
 
 <table>
 <tr>
-<td align="center" valign="top" width="25%"><h3>~30%</h3><sub>less manual security review</sub></td>
-<td align="center" valign="top" width="25%"><h3>~40%</h3><sub>lower latency across AI agents</sub></td>
-<td align="center" valign="top" width="25%"><h3>176</h3><sub>automated tests on Stockroom</sub></td>
-<td align="center" valign="top" width="25%"><h3>0.9175</h3><sub>Kaggle mAP, synthetic to real</sub></td>
+<td align="center" valign="top" width="50%"><h3>~30%</h3><sub>less manual security review at UCSD IT</sub></td>
+<td align="center" valign="top" width="50%"><h3>~40%</h3><sub>lower inter-service latency in Travel AGNTCY</sub></td>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%"><h3>176</h3><sub>tests on Stockroom (165 integration, 11 browser)</sub></td>
+<td align="center" valign="top" width="50%"><h3>0.9175</h3><sub>Kaggle mAP, synthetic-to-real detection</sub></td>
 </tr>
 </table>
 
@@ -26,7 +28,7 @@
 
 ## About
 
-**UC San Diego Enterprise IT** (since Dec 2025) · I automated security reviews with Python, SQL and REST pipelines, cutting manual review work by about 30%. I also wrote 20+ automated tests for them.
+**IT Security Programmer, UC San Diego Enterprise IT** (since Dec 2025) · I automated security reviews with Python, SQL and REST pipelines, cutting manual review work by about 30%. I also wrote 20+ automated tests for them.
 
 **Lumulus Technologies** (Jun to Sep 2026) · As a software engineering intern, I built Windows tools in PySide6 for programming hardware.
 
@@ -43,7 +45,7 @@
 ### [WatchTower](https://github.com/cse110-sp26-group09/Watchtower-Course-Project) &nbsp;`Full-stack`
 **Led 11 teammates on a CSE 110 course project that shipped a live monitoring platform.** As Technical Lead I owned CI/CD and architecture. Our browser SDK sends JavaScript errors, slow requests and user activity to a Node.js API, which stores them in Supabase and streams them to a Clerk-protected dashboard.
 
-[Demo](https://youtu.be/tCBGQJBaOEo) · [Test app](https://cse110-sp26-group09.github.io/Watchtower-test-app/) · [Backend](https://watchtower-course-project-g8dv.onrender.com) &nbsp;|&nbsp; *JavaScript · Node.js · Supabase · Clerk · Jest · Playwright*
+[Demo](https://youtu.be/tCBGQJBaOEo) · [Test app](https://cse110-sp26-group09.github.io/Watchtower-test-app/) · [Backend](https://watchtower-course-project-g8dv.onrender.com) (free tier, ~30s to wake) &nbsp;|&nbsp; *JavaScript · Node.js · Supabase · Clerk · Jest · Playwright*
 
 <a href="https://github.com/cse110-sp26-group09/Watchtower-Course-Project"><img src="media/watchtower.webp" alt="WatchTower's production health view: availability, errors, latency, signal and feedback scores beside a radar chart" width="100%" /></a>
 
@@ -52,7 +54,7 @@
 ### [Travel AGNTCY](https://github.com/AdityaJadhav17/Travel-Agntcy) &nbsp;`AI` `Full-stack`
 **Cut inter-service latency by about 40%** by adding explicit fields and filters to the JSON the orchestrator agent receives, so it no longer spends time guessing missing details. A LangGraph supervisor sends flight, hotel and activity searches to three FastAPI agents over NATS, and a React UI shows the combined plan.
 
-[Demo](https://youtu.be/T0EkJ9J_IQU) &nbsp;|&nbsp; *Python · FastAPI · LangGraph · React · TypeScript · Docker · NATS*
+[Demo](https://youtu.be/T0EkJ9J_IQU) &nbsp;|&nbsp; *Python · FastAPI · LangGraph · React · TypeScript · Docker · NATS · Grafana*
 
 <a href="https://github.com/AdityaJadhav17/Travel-Agntcy"><img src="media/travel-agntcy.webp" alt="Travel AGNTCY agent directory: a travel supervisor linked over NATS to flight, hotel and activity agents" width="100%" /></a>
 
@@ -111,16 +113,16 @@
 
 | Area | Tools |
 |:--|:--|
-| **Languages** | <img src="media/icons-languages.svg" alt="Python, C++, Java, C, C#, JavaScript, TypeScript" height="40" /><br><sub>+ SQL</sub> |
-| **Backend** | <img src="media/icons-backend.svg" alt="FastAPI, Node.js, Express, .NET, MySQL, MongoDB, Supabase" height="40" /> |
-| **Frontend** | <img src="media/icons-frontend.svg" alt="React, Vite, HTML, CSS" height="40" /> |
-| **AI & Data** | <img src="media/icons-ai.svg" alt="PyTorch, TensorFlow" height="40" /><br><sub>+ LangGraph · YOLOv8 · NumPy · Pandas</sub> |
-| **Infra** | <img src="media/icons-infra.svg" alt="Docker, AWS, Git, Linux, Windows, GitHub Actions" height="40" /><br><sub>+ NATS · Grafana</sub> |
+| **Languages** | <img src="media/icons-languages.svg" alt="Python, C++, Java, C, C#, JavaScript, TypeScript" height="40" /><br><sub>Python · C++ · Java · C · C# · JavaScript · TypeScript · SQL</sub> |
+| **Backend** | <img src="media/icons-backend.svg" alt="FastAPI, Node.js, Express, .NET, MySQL, MongoDB, Supabase" height="40" /><br><sub>FastAPI · Node.js · Express · ASP.NET Core · MySQL · MongoDB · Supabase</sub> |
+| **Frontend** | <img src="media/icons-frontend.svg" alt="React, Vite, HTML, CSS" height="40" /><br><sub>React · Vite · HTML · CSS · PySide6</sub> |
+| **AI & Data** | <img src="media/icons-ai.svg" alt="PyTorch, TensorFlow" height="40" /><br><sub>PyTorch · TensorFlow · LangGraph · YOLOv8 · NumPy · Pandas</sub> |
+| **Infra** | <img src="media/icons-infra.svg" alt="Docker, AWS, Git, Linux, Windows, GitHub Actions" height="40" /><br><sub>Docker · AWS · Git · Linux · Windows · GitHub Actions · NATS · Grafana</sub> |
 
 <br>
 
 <div align="center">
 
-Email me at [aditya.jadhav7910@gmail.com](mailto:aditya.jadhav7910@gmail.com) about internships or any project above.
+Email me at [aditya.jadhav7910@gmail.com](mailto:aditya.jadhav7910@gmail.com) about new-grad roles or any project above.
 
 </div>
