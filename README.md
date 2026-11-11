@@ -28,7 +28,7 @@
 
 ## About
 
-**IT Security Programmer, UC San Diego Enterprise IT** (since Dec 2025) · I automated security reviews with Python, SQL and REST pipelines, cutting manual review work by about 30%. I also wrote 20+ automated tests for them.
+**Security Engineer, UC San Diego Enterprise IT** (since Dec 2025) · I automated security reviews with Python, SQL and REST pipelines, cutting manual review work by about 30%. I also wrote 20+ automated tests for them.
 
 **Lumulus Technologies** (Jun to Sep 2026) · As a software engineering intern, I built Windows tools in PySide6 for programming hardware.
 
