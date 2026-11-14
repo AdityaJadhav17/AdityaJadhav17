@@ -2,23 +2,26 @@
 
 <img src="media/banner.svg" alt="Aditya Jadhav" width="100%" />
 
-**I build full-stack apps, AI agent systems and security automation, then test them.**
+### I build software and find where it breaks.
+
+Aditya Jadhav, software engineer and Security Engineer at UC San Diego.<br>
+Graduating June 2027 and open to new-grad software engineering roles.
 
 [![Website](https://img.shields.io/badge/Website-adityajadhav.dev-1F6FEB?style=flat-square&logo=safari&logoColor=white)](https://adityajadhav.dev/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aditya%20Jadhav-1F6FEB?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-jadhav-06484123a/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-adityajadhav17-1F6FEB?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adityajadhav17/)
+[![Résumé](https://img.shields.io/badge/R%C3%A9sum%C3%A9-PDF-1F6FEB?style=flat-square&logo=files&logoColor=white)](https://adityajadhav.dev/Aditya_Jadhav_Resume.pdf)
 [![Email](https://img.shields.io/badge/Email-Say%20hello-1F6FEB?style=flat-square&logo=gmail&logoColor=white)](mailto:aditya.jadhav7910@gmail.com)
-[![Resume](https://img.shields.io/badge/Resume-PDF-1F6FEB?style=flat-square&logo=files&logoColor=white)](https://adityajadhav.dev/Aditya_Jadhav_Resume.pdf)
 
 <br>
 
 <table>
 <tr>
-<td align="center" valign="top" width="50%"><h3>~30%</h3><sub>less manual security review at UCSD IT</sub></td>
-<td align="center" valign="top" width="50%"><h3>~40%</h3><sub>lower inter-service latency in Travel AGNTCY</sub></td>
+<td align="center" valign="top" width="50%"><h3>3x</h3><sub>hackathon winner</sub></td>
+<td align="center" valign="top" width="50%"><h3>24 of 24</h3><sub>deadlines read right on Coverage Keeper's test letters</sub></td>
 </tr>
 <tr>
-<td align="center" valign="top" width="50%"><h3>176</h3><sub>tests on Stockroom (165 integration, 11 browser)</sub></td>
-<td align="center" valign="top" width="50%"><h3>0.9175</h3><sub>Kaggle mAP, synthetic-to-real detection</sub></td>
+<td align="center" valign="top" width="50%"><h3>11</h3><sub>engineers led on WatchTower</sub></td>
+<td align="center" valign="top" width="50%"><h3>178</h3><sub>integration tests gating Stockroom's CI</sub></td>
 </tr>
 </table>
 
@@ -26,86 +29,63 @@
 
 <br>
 
-## About
-
-**Security Engineer, UC San Diego Enterprise IT** (since Dec 2025) · I automated security reviews with Python, SQL and REST pipelines, cutting manual review work by about 30%. I also wrote 20+ automated tests for them.
-
-**Lumulus Technologies** (Jun to Sep 2026) · As a software engineering intern, I built Windows tools in PySide6 for programming hardware.
-
-**UC San Diego** · B.S. in Computer Science, graduating June 2027. Based in San Diego.
-
-**Looking for** · New-grad software engineering roles starting after June 2027, full-time or post-grad internships, in full-stack, AI/ML or security.
-
-<br>
-
 ## Projects
 
-*Ranked by impact.*
+### [Coverage Keeper](https://adityajadhav.dev/projects/coverage-keeper/)
+*Winner, AI in Healthcare track, Solix AI Hackathon 2026*
 
-### [WatchTower](https://github.com/cse110-sp26-group09/Watchtower-Course-Project) &nbsp;`Full-stack`
-**Led 11 teammates on a CSE 110 course project that shipped a live monitoring platform.** As Technical Lead I owned CI/CD and architecture. Our browser SDK sends JavaScript errors, slow requests and user activity to a Node.js API, which stores them in Supabase and streams them to a Clerk-protected dashboard.
+**Got the deadline right on 24 of 24 test letters.** Photograph a Medicaid letter and see what it asks for, when it is due, and who to call. In a team of three, I built the interface, the rules for five states, English and Spanish support, the eval scoring and the security audit fixes.
 
-[Demo](https://youtu.be/tCBGQJBaOEo) · [Test app](https://cse110-sp26-group09.github.io/Watchtower-test-app/) · [Backend](https://watchtower-course-project-g8dv.onrender.com) (free tier, ~30s to wake) &nbsp;|&nbsp; *JavaScript · Node.js · Supabase · Clerk · Jest · Playwright*
+[Case study](https://adityajadhav.dev/projects/coverage-keeper/) · [Code](https://github.com/AdityaJadhav17/coverage-keeper) · [Live app](https://coverage-keeper.vercel.app) &nbsp;|&nbsp; *Next.js · TypeScript · Claude API · zod · Vitest · Playwright · Vercel*
 
-<a href="https://github.com/cse110-sp26-group09/Watchtower-Course-Project"><img src="media/watchtower.webp" alt="WatchTower's production health view: availability, errors, latency, signal and feedback scores beside a radar chart" width="100%" /></a>
-
-<br>
-
-### [Travel AGNTCY](https://github.com/AdityaJadhav17/Travel-Agntcy) &nbsp;`AI` `Full-stack`
-**Cut inter-service latency by about 40%** by adding explicit fields and filters to the JSON the orchestrator agent receives, so it no longer spends time guessing missing details. A LangGraph supervisor sends flight, hotel and activity searches to three FastAPI agents over NATS, and a React UI shows the combined plan.
-
-[Demo](https://youtu.be/T0EkJ9J_IQU) &nbsp;|&nbsp; *Python · FastAPI · LangGraph · React · TypeScript · Docker · NATS · Grafana*
-
-<a href="https://github.com/AdityaJadhav17/Travel-Agntcy"><img src="media/travel-agntcy.webp" alt="Travel AGNTCY agent directory: a travel supervisor linked over NATS to flight, hotel and activity agents" width="100%" /></a>
+<a href="https://adityajadhav.dev/projects/coverage-keeper/"><img src="media/coverage-keeper.webp" alt="Coverage Keeper's result screen: a plain summary of the letter, the due date Feb 15, 2027 with 57 days left beside the highlighted line it was read from, and a checklist of papers to send" width="100%" /></a>
 
 <br>
 
-### [Stockroom](https://github.com/AdityaJadhav17/Stockroom) &nbsp;`Full-stack`
-**Wrote 165 integration tests and 11 browser tests for the purchase flow.** Members request stock and managers approve it. The app writes each stock change and its audit record in one transaction, and conditional updates block double-recorded deliveries and overselling.
+### [WatchTower](https://adityajadhav.dev/projects/watchtower/)
+*UC San Diego course project (CSE 110)*
 
-*C# · ASP.NET Core · EF Core · SQLite · Playwright*
+**Led 11 engineers to a deployed SDK, ingest API and live dashboard.** WatchTower shows web teams the errors, slowdowns and user activity on their live site. I was team lead, Scrum Master and technical lead for CI/CD and architecture. My own code is the CI pipeline, the Clerk sign-in and per-account data isolation, and in a later security review I found and closed three access-control holes.
 
-<a href="https://github.com/AdityaJadhav17/Stockroom"><img src="media/stockroom.webp" alt="Stockroom's History page: a read-only log of purchase request events and stock movements with actor and note" width="100%" /></a>
+[Case study](https://adityajadhav.dev/projects/watchtower/) · [Code](https://github.com/cse110-sp26-group09/Watchtower-Course-Project) · [Live dashboard](https://cse110-sp26-group09.github.io/Watchtower-Course-Project/) &nbsp;|&nbsp; *JavaScript · Node.js · Supabase · Clerk · Jest · Playwright · Render*
 
-<br>
-
-### [Synthetic-to-Real Detection](https://github.com/AdityaJadhav17/Synthetic-to-Real-Object-Detection) &nbsp;`AI`
-**Scored mAP 0.9175 (public) and 0.9074 (private) on Kaggle.** I trained YOLOv8 on synthetic images and ran domain-randomization experiments to make it work on real photos.
-
-[Kaggle challenge](https://www.kaggle.com/competitions/synthetic-2-real-object-detection-challenge) &nbsp;|&nbsp; *Python · PyTorch · YOLOv8 · Albumentations*
-
-<a href="https://github.com/AdityaJadhav17/Synthetic-to-Real-Object-Detection"><img src="media/sim2real.webp" alt="The detector finds a Cheerios box at 0.99 confidence in both a real photo and a synthetic render" width="560" /></a>
+<a href="https://adityajadhav.dev/projects/watchtower/"><img src="media/watchtower.webp" alt="WatchTower's Production health page, with a percentage score for each of availability, errors, latency, signal and feedback" width="100%" /></a>
 
 <br>
 
-### [Talk-to-Robot](https://github.com/YangLin14/Talk-to-Robot) &nbsp;`AI`
-**Found where LLM robot control breaks: ~98% end-to-end success on literal instructions, 50% on intent-based ones.** Our team split an LLM that reads the instruction from a reinforcement-learning controller (SAC+HER) in MuJoCo, so you can see whether a failed push came from the language model or the policy.
+### [TravelAGNTCY](https://adityajadhav.dev/projects/travel-agntcy/)
+*Won Cisco's AGNTCY track at SANDHacks 2026*
 
-*Python · Gemini · MuJoCo · Stable-Baselines3*
+**Got responses back about 40% faster by redesigning the supervisor-to-agent messages.** Separate AI agents for flights, hotels and activities work together on one travel plan. We built it at the hackathon on CoffeeAGNTCY, AGNTCY's sample multi-agent app; afterwards I added the CI pipeline, conversation memory, budgets and chat lifecycle recovery.
 
-<a href="https://github.com/YangLin14/Talk-to-Robot"><img src="media/talk-to-robot.svg" alt="End-to-end success by instruction tier: 98.3% literal coordinates, 93.3% named regions, 76.7% relative offsets, 73.3% reference objects, 50% functional intent" width="100%" /></a>
+[Case study](https://adityajadhav.dev/projects/travel-agntcy/) · [Code](https://github.com/AdityaJadhav17/Travel-Agntcy) · [Demo video](https://youtu.be/T0EkJ9J_IQU) &nbsp;|&nbsp; *Python · FastAPI · LangGraph · React · TypeScript · Docker · NATS · SerpAPI*
 
-<br>
-
-### [Personal Tracker](https://github.com/AdityaJadhav17/Personal-Tracker) &nbsp;`Full-stack`
-**Built a deadline and notes dashboard that keeps your data on your machine.** It runs in your browser with no account and no server.
-
-*TypeScript · React · Vite*
-
-<a href="https://github.com/AdityaJadhav17/Personal-Tracker"><img src="media/personal-tracker.webp" alt="Personal Tracker's Home view: today's date, one overdue item first, then the coming days with course tags" width="100%" /></a>
-
-<details>
-<summary><b>More work</b></summary>
+<a href="https://adityajadhav.dev/projects/travel-agntcy/"><img src="media/travel-agntcy.webp" alt="TravelAGNTCY agent graph: a Travel Agent supervisor linked to a NATS transport, which links to a Flight Agent, a Hotel Agent and an Activity Agent" width="100%" /></a>
 
 <br>
 
-**AI Chat Assistant (IBM Cloud).** A Watson Assistant and Node.js/Express chatbot that answered 150+ test queries at 90%+ accuracy. [Demo](https://youtu.be/9sRefMjn5Es)
+### More projects
 
-**NutrifitWorld (intern, Jun to Oct 2025).** I shipped a responsive business site with CRM, scheduling and analytics.
+- **[Talk-to-Robot](https://adityajadhav.dev/projects/talk-to-robot/)**: end-to-end success falls from 98% to 50% while policy success holds at 93 to 100%, which places the failures in the language model's grounding, not the robot controller. A five-person CSE 190 study. [Code](https://github.com/YangLin14/Talk-to-Robot) · [Paper](https://adityajadhav.dev/llm-spatial-grounding-paper.pdf)
+- **[Bayt Qareeb](https://adityajadhav.dev/projects/bayt-qareeb/)**: won a $200 prize at the MTC x Replit x Manara West Buildathon. A map-first housing and roommate finder for Muslim college students, open only to verified .edu students. [Code](https://github.com/waleedA13/Bayt-Qareeb) · [Live app](https://manara-west.vercel.app) · [Demo video](https://youtu.be/dgyNZPzzhyE)
+- **[Stockroom](https://adityajadhav.dev/projects/stockroom/)**: 178 integration tests and 11 end-to-end cases gate a seven-job CI pipeline. A shared inventory and purchasing app that records who approved what, and when. [Code](https://github.com/AdityaJadhav17/Stockroom)
+- **[Margin](https://adityajadhav.dev/projects/margin/)**: in daily use since September 2026, with no runtime dependencies beyond React. One app for deadlines, courses, notes and goals that runs in the browser, with no account and no cloud. [Code](https://github.com/AdityaJadhav17/Margin)
+- **[Synthetic-to-Real Object Detection](https://adityajadhav.dev/projects/synthetic-to-real/)**: mAP@50 0.9175 on the private leaderboard, 0.9074 on the public one. An object detector trained only on synthetic images, built to work on real photos. [Code](https://github.com/AdityaJadhav17/Synthetic-to-Real-Object-Detection) · [Kaggle competition](https://www.kaggle.com/competitions/synthetic-2-real-object-detection-challenge)
 
-**WatchTower team.** <br><img src="media/team-pic.jpeg" alt="UCSD CSE 110 Team 09, the WatchTower project team" width="480" />
+<br>
 
-</details>
+## Experience
+
+**Security Engineer, UC San Diego (ITS)** · Dec 2025 to present
+- Develop and maintain Python-based scripts and SQL queries to analyze and validate enterprise security data across legacy and modern systems
+- Work within defined security scopes and confidentiality requirements while collaborating with engineers and administrators
+
+**Software Engineering Intern, Lumulus Technologies** · Jun to Sep 2026
+- Built a Windows desktop application in Python/Qt for configuring and validating USB-connected hardware devices, replacing a legacy internal tool and a paid third-party subscription and cutting a 15 to 20 minute task to under 5 minutes
+
+**B.S. Computer Science, UC San Diego** · Expected June 2027
+
+**Certifications:** AWS Certified Cloud Practitioner ([verify](https://www.credly.com/badges/09d1646f-ca09-46fd-926b-6af8d878fb26/public_url)) · AWS Certified AI Practitioner ([verify](https://www.credly.com/badges/e761ec4f-7806-4d0f-b497-303cc5533086/public_url))
 
 <br>
 
@@ -113,16 +93,16 @@
 
 | Area | Tools |
 |:--|:--|
-| **Languages** | <img src="media/icons-languages.svg" alt="Python, C++, Java, C, C#, JavaScript, TypeScript" height="40" /><br><sub>Python · C++ · Java · C · C# · JavaScript · TypeScript · SQL</sub> |
-| **Backend** | <img src="media/icons-backend.svg" alt="FastAPI, Node.js, Express, .NET, MySQL, MongoDB, Supabase" height="40" /><br><sub>FastAPI · Node.js · Express · ASP.NET Core · MySQL · MongoDB · Supabase</sub> |
-| **Frontend** | <img src="media/icons-frontend.svg" alt="React, Vite, HTML, CSS" height="40" /><br><sub>React · Vite · HTML · CSS · PySide6</sub> |
-| **AI & Data** | <img src="media/icons-ai.svg" alt="PyTorch, TensorFlow" height="40" /><br><sub>PyTorch · TensorFlow · LangGraph · YOLOv8 · NumPy · Pandas</sub> |
-| **Infra** | <img src="media/icons-infra.svg" alt="Docker, AWS, Git, Linux, Windows, GitHub Actions" height="40" /><br><sub>Docker · AWS · Git · Linux · Windows · GitHub Actions · NATS · Grafana</sub> |
+| **Languages** | <img src="media/icons-languages.svg" alt="" height="36" /><br><sub>Python · TypeScript · JavaScript · C# · C · C++ · Java · SQL</sub> |
+| **Frontend** | <img src="media/icons-frontend.svg" alt="" height="36" /><br><sub>React · Next.js · Vite</sub> |
+| **Backend and data** | <img src="media/icons-backend.svg" alt="" height="36" /><br><sub>FastAPI · Node.js · ASP.NET Core · Supabase · Postgres · SQLite · Prisma</sub> |
+| **AI and ML** | <img src="media/icons-ai.svg" alt="" height="36" /><br><sub>PyTorch · YOLOv8 · LangGraph · Claude API · Gemini · MuJoCo · Stable-Baselines3</sub> |
+| **Testing and DevOps** | <img src="media/icons-infra.svg" alt="" height="36" /><br><sub>Docker · GitHub Actions · Vercel · Jest · Vitest · Playwright · xUnit · NATS</sub> |
 
 <br>
 
 <div align="center">
 
-Email me at [aditya.jadhav7910@gmail.com](mailto:aditya.jadhav7910@gmail.com) about new-grad roles or any project above.
+Email [aditya.jadhav7910@gmail.com](mailto:aditya.jadhav7910@gmail.com) about new-grad roles, or read the full case studies at [adityajadhav.dev](https://adityajadhav.dev/).
 
 </div>
